@@ -14,7 +14,9 @@ class Spaceship {
     $ship_class = $request->get('ship_class');
     $ship_name = $model->getShipName($ship_class);
 
-    $response = new Response("<h1>Your ship is: {$ship_name}</h1>");
+    # TODO: this should trigger an error since the class is locally referenced
+    $formatted_ship_name = ControllerHelper::formatShipName($ship_name);
+    $response = new Response($formatted_ship_name);
     return $response;
   }
 

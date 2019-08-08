@@ -1,0 +1,2 @@
+/Users/joepurcell/src/github.com/josephdpurcell/phpmd-phpnsc-comparison/src/Controller/Spaceship.php:12	Missing class import via use statement (line '12', column '18').
+/Users/joepurcell/src/github.com/josephdpurcell/phpmd-phpnsc-comparison/src/Controller/Spaceship.php:18	Avoid using static access to class 'PhpmdPhpnscComparison\Controller\ControllerHelper' in method 'launch'.

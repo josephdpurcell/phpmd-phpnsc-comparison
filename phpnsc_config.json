@@ -17,10 +17,6 @@
     ],
     "output": [
         {
-            "class": "rg\\tools\\phpnsc\\CheckstyleOutput",
-            "parameter": "phpnsc.xml"
-        },
-        {
             "class": "rg\\tools\\phpnsc\\ConsoleOutput",
             "parameter": ""
         }

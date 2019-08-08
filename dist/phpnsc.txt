@@ -1,0 +1,14 @@
+Scan /Users/joepurcell/src/github.com/josephdpurcell/phpmd-phpnsc-comparison/src
+.... 4/4
+
+Analyze /Users/joepurcell/src/github.com/josephdpurcell/phpmd-phpnsc-comparison/src
+Got 4 files
+Collect entities...
+Got 3 defined entities
+Check namespaces...
+.... 4/4
+
+Errors found:
+
+/Users/joepurcell/src/github.com/josephdpurcell/phpmd-phpnsc-comparison/src/PhpmdPhpnscComparison/Model/Ether.php (4): Namespace does not match folder structure, got PhpmdPhpnscComparison\Model expected PhpmdPhpnscComparison\PhpmdPhpnscComparison\Model
+Time: 43 ms, Memory: 6.00 MB
