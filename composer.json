@@ -1,0 +1,13 @@
+{
+    "name": "josephdpurcell/phpmd-phpnsc-comparison",
+    "description": "A tool to compare the PHPMD and PHPNSC projects.",
+    "type": "project",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Joseph D. Purcell",
+            "email": "josephdpurcell@gmail.com"
+        }
+    ],
+    "require": {}
+}
