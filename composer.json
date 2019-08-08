@@ -9,5 +9,12 @@
             "email": "josephdpurcell@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "phpmd/phpmd": "2.7.0",
+        "rg/phpnsc": "^5.0",
+        "symfony/http-foundation": "^4.3"
+    },
+    "autoload": {
+        "psr-4": { "PhpmdPhpnscComparison\\": "src/" }
+    }
 }
