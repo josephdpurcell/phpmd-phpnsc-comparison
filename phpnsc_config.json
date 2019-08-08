@@ -1,0 +1,29 @@
+{
+    "sources": [
+        {
+            "vendor": "PhpmdPhpnscComparison",
+            "folders": {
+                "root": "./src",
+                "include": ["."],
+                "exclude": []
+            },
+            "filetypes": {
+                "include": [
+                    ".php"
+                ],
+                "exclude" : [".config.php"]
+            }
+        }
+    ],
+    "output": [
+        {
+            "class": "rg\\tools\\phpnsc\\CheckstyleOutput",
+            "parameter": "phpnsc.xml"
+        },
+        {
+            "class": "rg\\tools\\phpnsc\\ConsoleOutput",
+            "parameter": ""
+        }
+    ]
+}
+
